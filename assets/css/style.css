@@ -1,0 +1,258 @@
+/* START CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 96%;
+	max-width: 96%;	
+	background-color: #fafafa;
+}
+
+
+#main-container {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	max-width: 960px;
+	background-color: #fafafa ;
+	background-repeat: no-repeat;
+	/*border-style: dashed;
+	border-width: 3px;
+	border-color: black;*/
+	padding-bottom: 200px;
+	
+}
+
+#master-container {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 0;
+	background-color:;
+	
+	width: 60%;
+	display: inline-block;
+
+
+}
+
+#welcome {
+	float: right;
+	margin-right: 150px;
+	margin-top: 100px;
+
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	
+}
+
+h3 {
+	font-size: 20px;
+}
+h5 {
+	margin-left: 85px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.letter {
+	color: red;
+	border-bottom: solid;
+	border-color: black;
+}
+
+#your{
+	color: grey;
+	margin-left: 60px;
+}
+
+
+#books {
+	margin-top: -298px;
+	margin-left: -85px;
+}
+#shelf-image {
+	margin-top: 50px;
+}
+
+#container {
+	margin-bottom: 20px;
+	margin-left: 140px;
+
+}
+
+#container-2 {
+	margin-left: 140px;
+}
+img {
+	margin-right: 7px;
+}
+#start-button {
+	background-color: black;
+	color: white;
+	width: 405px;
+	height: 40px;
+	margin-left: 95px;
+	margin-top: 40px;
+}
+#start-button:hover {
+	width: 407px;
+	height: 42px;
+}
+
+ #javascript:hover {
+	width: 100px;
+	height: 100px;
+}
+
+
+ #james:hover {
+	width: 100px;
+	height: 100px;
+}
+
+
+ #hamlet:hover {
+	width: 100px;
+	height: 100px;
+}
+
+
+ #holes:hover {
+	width: 100px;
+	height: 100px;
+}
+
+ #clifford:hover {
+	width: 100px;
+	height: 100px;
+}
+
+ #journal:hover {
+	width: 100px;
+	height: 100px;
+}
+
+/*img {
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}*/
+
+
+/* for header*/
+
+#flipbook {
+	margin-top: -00px;
+	overflow: hidden;
+	/*width: 800px;
+	height: 600px;*/ 	
+	text-align: center;
+	background-color: black;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: white;
+	color: white;
+}
+
+
+p {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.page {
+width: 300px;
+height: 500px;
+background-color: #e6eeff;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: black;
+}
+
+#page-2 {
+	background-color: yellow;
+}
+
+#flipbook iframe {
+	margin: 0 auto;
+	padding: 100px;
+}
+
+/* CSSS FOR INDEX-2.HTML,*/
+
+#main-page {
+	background-image: url("background3.jpg");
+	height: 900px;
+	width: 100%;
+}
+
+#main-header {
+	background-color: ;
+	height: 200px;
+	width: 100%;
+}
+
+
+#main-box {
+	background-color:;
+	width: 500px;
+	height: 500px;
+	color: black;
+
+}
+
+#recieve-text {
+	max-width: 400px;
+	height: 400px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+
+#text-area , #text-for-image {
+	width: 400px;
+	height: 34px;
+	background-color: grey;
+	margin-left: 5px;
+
+}
+
+
+
+#text-for-image {
+	background-color: white;
+	color: black;
+}
+
+.panel.panel-default {
+	width: 950px;
+}
+
+/*MEDIA QUEIRY 634px*/
+
+@media screen and (max-width: 640px) {
+
+#main-container {
+	background-color: lightblue;
+	width: 100%;
+	height: 100%;
+}
+
+#master-container {
+	background-color:;
+	max-width: 300px;
+	height: 50%;
+}
+
+img {
+	position: fixed;
+}
+
+}

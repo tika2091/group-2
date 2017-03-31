@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Booklet</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javaScript" src="turn.js"></script>
+
+	<style type="text/css">
+		body {
+			background-image: url("background3.jpg");
+
+		}
+
+		#flipbook {
+			border-style: solid;
+			border-width: 1.6px;
+			border-color: black;
+		}
+
+		#mini {
+			float: left;
+
+			
+		}
+
+		p {
+			float: right;
+			max-height: 50%;
+		}
+
+		#input-1 {
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+
+
+</head>
+<body>
+<div id="input-box">
+	<input id="input-1" type= "text">
+	<button id="submit-button">Submit</button>
+</div>
+
+<div id="flipbook">
+Welcome
+	<div style="background-image:url(images/redbackground.jpg);"></div>
+	
+	<div style="background-image:url(images/pagebackground2.png);"></div>
+	<div style="background-image:url(images/pagebackground.png);">
+			<p>Wayne's career took off in 1939, with John Ford's Stagecoach making him an instant star. He went on to star in 142 pictures. Biographer Ronald Davis said, "John Wayne personified for millions the nation's frontier heritage. Eighty-three of his movies were Westerns, and in them he played cowboys, cavalrymen, and unconquerable loners extracted from the Republic's central creation myth."[5]</p>
+			<p>..<span id="story-text">-</span>..</p>
+			<img src="images/minion.gif" width="100" height="100" id="mini"></div>
+	<div style="background-image:url(images/pagebackground2.png);">p2</div>
+	<div style="background-image:url(images/pagebackground.png);">p3</div>
+	<div style="background-image:url(images/pagebackground2.png);">p4</div>
+</div>
+
+
+
+<script type="text/javaScript">
+	$("#flipbook").turn({
+  		width: 900,
+  		height: 600,
+  		autoCenter: false
+});
+	
+</script>
+
+
+<script type="text/javaScript" src="js-1.js"></script>
+
+</body>
+
+</html>
