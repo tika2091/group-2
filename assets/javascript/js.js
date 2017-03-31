@@ -1,6 +1,6 @@
 
 $("#start-button").on("click", function () {
-	location.href = "index-2.html";
+	location.href = "Booklet/booklet.html";
 });
 
 $("#submit-button").on("click", function () {
